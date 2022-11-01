@@ -1,0 +1,92 @@
+{
+  "nodes": {
+    "casting-main": {
+      "inputs": {
+        "flakeNimbleLib": [
+          "flakeNimbleLib"
+        ],
+        "nixpkgs": [
+          "nixpkgs"
+        ],
+        "src-casting-main": "src-casting-main"
+      },
+      "locked": {
+        "dir": "main",
+        "lastModified": 1667310748,
+        "narHash": "sha256-cyj7ERYQv10xxHPzcp5CluMlp9upZdUUq8eS+3RA4XY=",
+        "owner": "nim-nix-pkgs",
+        "repo": "casting",
+        "rev": "b3f9813060914f760e1ad0da4beb783ce35cdaf6",
+        "type": "github"
+      },
+      "original": {
+        "dir": "main",
+        "owner": "nim-nix-pkgs",
+        "ref": "master",
+        "repo": "casting",
+        "type": "github"
+      }
+    },
+    "flakeNimbleLib": {
+      "inputs": {
+        "nixpkgs": [
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1662018438,
+        "narHash": "sha256-QtNtU6+LX3Wokxf0zlFwKTFOcn6TeDjKQZ+DA9OYtvM=",
+        "owner": "riinr",
+        "repo": "nim-flakes-lib",
+        "rev": "b1fe8340736e3a85d25c709ac3dfd82a55c03cbf",
+        "type": "github"
+      },
+      "original": {
+        "owner": "riinr",
+        "ref": "master",
+        "repo": "nim-flakes-lib",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1667110639,
+        "narHash": "sha256-4FbPESZ5LbqQxkJJJBAfk/zKgF9h/4kyUwjjpJwYlbc=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "f38a1f04d1bec1feb61fd101a0539ae2002a7087",
+        "type": "github"
+      },
+      "original": {
+        "id": "nixpkgs",
+        "type": "indirect"
+      }
+    },
+    "root": {
+      "inputs": {
+        "casting-main": "casting-main",
+        "flakeNimbleLib": "flakeNimbleLib",
+        "nixpkgs": "nixpkgs"
+      }
+    },
+    "src-casting-main": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1666602341,
+        "narHash": "sha256-kIzagbqgCUn2MHFq7cgPX0F7PAoOrK91DVex0DZZpWA=",
+        "owner": "sls1005",
+        "repo": "nim-casting",
+        "rev": "cdf5680b2456c32f6c2af1cfc1995c7d437303e4",
+        "type": "github"
+      },
+      "original": {
+        "owner": "sls1005",
+        "ref": "refs/heads/main",
+        "repo": "nim-casting",
+        "type": "github"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
